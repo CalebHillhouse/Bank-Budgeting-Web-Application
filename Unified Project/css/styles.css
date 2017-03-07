@@ -1,0 +1,144 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: RalewayExtraLight;
+}
+
+.textRight{
+    text-align: right;
+    padding: .25em;
+}
+
+.textLeft{
+    text-align: left;
+    padding: .25em;
+}
+
+.textCenter{
+    text-align: center;
+    padding: .25em;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navButton {
+	font-family: RalewayExtraLight;
+	color: #FFF;
+	text-align: center;
+	background-color: #006847;
+	margin-top: .5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 24pt;
+}
+
+.navButton:hover{
+    background-color: #6ab244;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.navButton:active{
+    background-color: #63a63f;
+    box-shadow: inset 0px 0px 10px rgba(33, 33, 33, 0.50);
+}
+
+#content {
+	background-color: #e1e1e1;
+	margin-top: 1em;
+    text-align: center;
+}
+
+.sectionTitle{
+    background-color: #006847;
+    min-height: 75px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #FFF;
+}
+
+.progressBarWrapper{
+    padding-top: 3em;
+    padding-bottom: 3.5em;
+    text-align: center;
+}
+
+.progressBar{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 2em;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(33, 33, 33, 0.50);
+    text-align: left;
+}
+
+.progressBarFiller{
+    background-color: #6ab244; /*Would be nice for this to change in correlation with the width. Not sure how to implement. */
+    height: 2em;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: inset 0px 1em 5px rgba(137, 229, 87, 0.25);
+    text-align: right;
+    color: #FFF;
+}
+.progressBarFiller h4{
+    padding-top: .25em;
+    padding-right: .5em;
+}
+
+#addGoalBtn{
+    max-width: 15%;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #006847;
+    color: #FFF;
+    float: right;
+}
+#addGoalBtn:hover{
+    background-color: #6ab244;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #e1e1e1;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
